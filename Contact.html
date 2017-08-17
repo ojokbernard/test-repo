@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>CSS Form #3</title>
+<style type="text/css">
+body {
+font:62.5%/1.4 Arial, Helvetica, sans-serif;
+}
+h1 {
+font-size:1.6em;
+margin:0 0 35px;
+}
+h2 {
+font-size:1.6em;
+padding:0 0 3px;
+border-bottom:2px solid #999;
+}
+h3 {
+font-size:1.4em;
+margin:0 0 0 160px;
+}
+h3 span {
+float:right;
+display:inline;
+margin:0 80px 0 0;
+}
+span.lien {
+margin:0 110px 0 0;
+}
+form {
+margin:0 auto;
+padding:30px;
+width:505px;
+background:#CCC;
+border:1px solid #999;
+}
+form div {
+overflow:hidden;
+width:100%;
+}
+label, input, textarea {
+font-size:1.2em;
+font-family:inherit;
+}
+label {
+cursor:pointer;
+font-weight:bold;
+margin:10px 0;
+width:150px;
+float:left;
+display:inline;
+}
+input {
+width:150px;
+margin:10px;
+float:left;
+display:inline;
+}
+#last label, #last input {
+width:237px;
+}
+.comments {
+font-size:1.6em;
+margin-top:20px;
+}
+textarea {
+height:130px;
+overflow:auto;
+width:484px;
+}
+.submit {
+width:5em;
+padding:.2em;
+font-weight:bold;
+margin:17px 0 0;
+cursor:pointer;
+}
+input, textarea {
+background:#fff;
+}
+input:active, input:focus, input:hover, textarea:active, textarea:focus, textarea:hover {
+background:#eee;
+outline:0;
+}
+</style> 
+</head>
+
+<body>
+<form method="post" action="">
+<h1>Please take a moment to fill the application out in it’s entirety. An experienced team member will contact you within 24 hours.</h1>
+
+<h2>Personal Information</h2>
+<h3><span>Co-Borrower</span>Borrower</h3>
+<div>
+<label for="firstname">First Name</label>
+<input type="text" id="firstname" name="firstname">
+<input type="text" id="firstname2" name="firstname2">
+
+<label for="lastname">Last Name</label>
+<input type="text" id="lastname" name="lastname">
+<input type="text" id="lastname2" name="lastname2">
+
+<label for="address">Property Address</label>
+<input type="text" id="address" name="address">
+<input type="text" id="address2" name="address2">
+
+<label for="state">Property State</label>
+<input type="text" id="state" name="state">
+<input type="text" id="state2" name="state2">
+
+<label for="zip">Property Zip</label>
+<input type="text" id="zip" name="zip">
+<input type="text" id="zip2" name="zip2">
+</div>
+
+<h2>Contact Information</h2>
+<h3><span>Co-Borrower</span>Borrower</h3>
+<div>
+<label for="email">Email</label>
+<input type="text" id="email" name="email">
+<input type="text" id="email2" name="email2">
+
+<label for="homephone">Home Phone</label>
+<input type="text" id="homephone" name="homephone">
+<input type="text" id="homephone2" name="homephone2">
+
+<label for="workphone">Work Phone</label>
+<input type="text" id="workphone" name="workphone">
+<input type="text" id="workphone2" name="workphone2">
+
+<label for="cellphone">Cell Phone</label>
+<input type="text" id="cellphone" name="cellphone">
+<input type="text" id="cellphone2" name="cellphone2">
+
+<label for="besttime">Best time to call</label>
+<input type="text" id="besttime" name="besttime">
+<input type="text" id="besttime2" name="besttime2">
+</div>
+
+<h2>Current Mortgage Information</h2> 
+<h3><span class="lien">2nd Lien</span>1st Lien</h3>
+<div>
+<label for="lendername">Lender Name</label>
+<input type="text" id="lendername" name="lendername">
+<input type="text" id="lendername2" name="lendername2">
+
+<label for="amountowed">Amount Owed</label>
+<input type="text" id="amountowed" name="amountowed">
+<input type="text" id="amountowed2" name="amountowed2">
+
+<label for="taxes">Monthly Taxes</label>
+<input type="text" id="taxes" name="taxes">
+<input type="text" id="taxes2" name="taxes2">
+
+<label for="insurance">Monthly Insurance</label>
+<input type="text" id="insurance" name="insurance">
+<input type="text" id="insurance2" name="insurance2">
+
+<label for="delinquent">Are you Delinquent?</label>
+<input type="text" id="delinquent" name="delinquent">
+<input type="text" id="delinquent2" name="delinquent2">
+
+<label for="duedate">If So, Due Date?</label>
+<input type="text" id="duedate" name="duedate">
+<input type="text" id="duedate2" name="duedate2">
+
+<label for="value">Home Value?</label>
+<input type="text" id="value" name="value">
+<input type="text" id="value2" name="value2">
+</div>
+
+<h2>Current Financial Information</h2>
+<div id="last">
+<label for="income">Total Gross Monthly Income</label>
+<input type="text" id="income" name="income">
+
+<label for="obligations">Total Monthly Obligations</label>
+<input type="text" id="obligations" name="obligations">
+
+<label for="household">Number in Household</label>
+<input type="text" id="household" name="household">
+</div>
+
+<div>
+<label for="comments" class="comments">Comments</label><textarea id="comments" name="comments" rows="3" cols="30"></textarea>
+<input type="submit" name="submit" value="Submit" class="submit">
+</div>
+</form>
+             
+</body>
+</html>

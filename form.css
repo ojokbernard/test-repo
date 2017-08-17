@@ -1,0 +1,41 @@
+form {
+margin:50px;
+width:620px;
+overflow:hidden;
+}
+input, textarea, label {
+font-size:1.4em;
+font-family:inherit;
+}
+label, input {
+width:300px;
+float:left;
+margin:0 0 1em;
+}
+textarea {
+width:300px;
+height:140px;
+float:left;
+margin:0 0 1em;
+overflow:auto;
+}
+label {
+text-align:right;
+width:150px;
+padding:0 20px 0 0;
+cursor:pointer;
+}
+input.submit {
+width:5em;
+padding:.1em;
+margin:0 0 0 171px;
+font-weight:bold;
+cursor:pointer;
+}
+input, textarea {
+background:#D5EAFF;
+}
+input:hover, textarea:hover, input:focus, textarea:focus {
+background:#79BCFF;
+outline:0;
+}

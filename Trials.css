@@ -1,0 +1,30 @@
+label, input, textarea {
+font-family:inherit;
+float:left;
+clear:left;
+width:250px;
+font-weight:bold;
+}
+label {
+cursor:pointer;
+}
+input {
+padding:.2em;
+margin-bottom:.2em;
+background:#eee;
+}
+textarea {
+height:120px;
+margin-bottom:.8em;
+overflow:auto;
+padding:.2em;
+background:#eee;
+}
+input.submit {
+width:5em;
+padding:.1em;
+}
+input:focus, textarea:focus, input:hover, textarea:hover {
+background:#C4DCF4;
+outline:0;
+}
